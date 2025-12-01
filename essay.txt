@@ -1,0 +1,46 @@
+
+/*
+                                   B. Part 2: Essay Questions (2.5 Grade): 
+        1. 
+           * forEach:
+             بترجعلي  index , value من ال array
+             تستخدم مع العمليات البسيطة التي لا تحتاج لوقت
+             ولا تستخدم الا مع ال array فقط  
+           * for...of:
+             بترجعلي قيمة value فقط
+             تستخدم في العمليات التي تحتاج لوقت وتطبيق   async operation  
+           .   
+           
+        2.
+            *hoisting: إن js بترفع كل ال declarations لفوق الكود قبل الكود ما يتنفذ
+            - var : بيتعمله hoistinfg ولكن بياخد قيمة = undefinded
+            - let & const : بيتعملهم hoisting ولكن مبياخدوش قيمة defult  زي var
+            -declaration function : الوحيدة اللي بيتعملها hoisting وممكن تتنفذ قبل
+            الكود بتاعها بمجرد ما اعملها call
+            
+             * TDZ: هي منطقة ممنوع استخدم فيها المتغيرات let , const علشان هيطلع error
+            ولكن مع var الكود هيشتغل عادي لانه واخد قيمة undefinded 
+            ومع الfunction هيشتغل عادي لان الfunction معمول ليها hoisting بالكامل
+
+        3.
+            * == compare value only 
+            * === compare value && data type
+        
+        4. 
+            *try : بتسمحلي اجرب كود ممكن يحصل فيه خطأ
+            * catch : علشان الكود ميقفش بيروح ينفذ الكود اللي جوا هنا
+            * why it is important in async operations: علشان ممكن يحصل error 
+             زي json مش مظبوط او السيرفر بطئ او النت فاصل ف catch بتنفذ كود بحيث البرنامج ميقفش
+        
+        5.
+            *type conversion: دي اللي انا بعملها بايدي
+            ex: let str = "12";
+            console.log(Number(str) + 8); // output=> 12 + 8 =20
+
+        *Type Coercion:دي js هي اللي بتعملها تلقائي   
+            ex: let result = "5" + 2;
+            console.log(result); // output=> 52
+            ex: let result = "5" - 2;
+            console.log(result); // output=> 3
+
+     */
